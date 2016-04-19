@@ -29,15 +29,14 @@ img {
 }
 
 .badges {
-    position: absolute;
-    top: 20px;
-    right: 0;
+    text-align: center;
 }
 
 #content .status {
-    font-size: 160px;
+    font-size: 120px;
     font-weight: bold;
     padding-top: 50px;
+    text-align: center;
 }
 
 #content .status.positive {
@@ -70,4 +69,17 @@ img {
 #footer a:hover {
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    #content .status {
+        font-size: 160px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .badges {
+        position: absolute;
+        top: 20px;
+        right: 0;
+    }
 }
