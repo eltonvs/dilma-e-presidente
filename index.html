@@ -15,6 +15,12 @@
     <header id="header">
         <h1 class="text-center">Dilma é Presidente?</h1>
     </header>
+    <div class="badges">
+        <ul class="list-unstyled">
+            <li><iframe src="https://ghbtns.com/github-btn.html?user=eltonvs&repo=dilma_e_presidente&type=star&count=true" frameborder="0" scrolling="0" width="160px" height="30px"></iframe></li>
+            <li><iframe src="https://ghbtns.com/github-btn.html?user=eltonvs&repo=dilma_e_presidente&type=fork&count=true" frameborder="0" scrolling="0" width="170px" height="30px"></iframe></li>
+        </ul>
+    </div>
     <main id="content">
         <div class="container">
             <div class="col-xs-12 col-md-6">
@@ -23,6 +29,10 @@
             <div class="col-xs-12 col-md-6">
                 <p class="status positive">SIM</p>
                 <!--<p class="status negative">NÃO</p>-->
+            </div>
+            <div class="share pull-right">
+                <div class="fb-share-button" data-href="http://dilmaepresidente.com/" data-layout="button_count" data-mobile-iframe="true"></div>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dilmaepresidente.com/" data-text="Neste momento, Dilma é Presidente?" data-via="eltonsviana" data-size="large" data-related="eltonsviana" data-hashtags="DilmaPresidente" data-dnt="true">Tweet</a>
             </div>
         </div>
     </main>
@@ -33,5 +43,16 @@
             </div>
         </div>
     </footer>
+    <div id="fb-root"></div>
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
 </body>
 </html>

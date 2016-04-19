@@ -18,6 +18,7 @@ img {
     background-color: #c0392b;
     color: #fff;
     padding: 20px 0;
+    margin-bottom: 60px;
 }
 
 #header h1 {
@@ -27,8 +28,14 @@ img {
     font-weight: bold;
 }
 
+.badges {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
 #content .status {
-    font-size: 80px;
+    font-size: 160px;
     font-weight: bold;
     padding-top: 50px;
 }
@@ -53,4 +60,14 @@ img {
 
 #footer p {
     padding-top: 20px;
+}
+
+#footer a {
+    color: #f1c40f;
+    transition: all 0.3s ease-in-out;
+}
+
+#footer a:hover {
+    color: #fff;
+    text-decoration: none;
 }
