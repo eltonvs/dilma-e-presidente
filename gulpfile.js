@@ -1,5 +1,6 @@
 // Load plugins
 var gulp = require('gulp'),
+    watch = require('gulp-watch'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     cssnano = require('gulp-cssnano'),
