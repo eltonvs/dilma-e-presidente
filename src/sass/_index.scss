@@ -49,6 +49,12 @@ img {
     }
 }
 
+.this-shouldnt-be-here {
+    float: right;
+    margin-top: -50px;
+    color: darken($silver, 20%);
+}
+
 
 #content .share {
     text-align: center;
