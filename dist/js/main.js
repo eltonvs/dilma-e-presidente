@@ -41,6 +41,6 @@ ga('send', 'pageview');
 
 // Choose a random image to be shown
 var n_images = 8;
-var rdm_number = Math.floor((Math.random() * 100)) % n_images + 1;
+var rdm_number = Math.floor(Math.random() * n_images);  
 var image_src = "dist/img/dilma_" + rdm_number.toString() + ".jpg";
 document.getElementById("dilma_image").src = image_src;
